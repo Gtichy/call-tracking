@@ -19,14 +19,14 @@
   
  include('Galvanize.php');
  //replace the XXX with your Google Analytics Account Number
- $GA = new Galvanize('GOOGLE ANALYTICS ACCOUNT HERE');
+ $GA = new Galvanize('GA ACCOUNT HERE');
  $GA->trackPageView($url,$title);
    
   
 //replace with your email address
-$to = "EMAILS YOU WOULD LIKE";
-$subject = "CLIENT NAME: Call Received From " . strtoupper($callsrc) . " Search.";
-$body = "Congrats, the audio recording of the call is available at\n\n$_POST[RecordingUrl]\n\n***Caller Information***\nCity: $_POST[FromCity]\nState: $_POST[CallerState]\nPhone: $_POST[Caller]\nCall Duration: $_POST[DialCallDuration] (seconds)";
+$to = "EMAIL RECIPIENTS HERE";
+$subject = ": Call Received From " . strtoupper($callsrc);
+$body = "Some information about this call is below.\n\n***Caller Information***\nSource: " . $callsrc . "\nCity: $_POST[FromCity]\nState: $_POST[CallerState]\nPhone: $_POST[Caller]\nCall Duration: $_POST[DialCallDuration] (seconds)";
 
 if (mail($to, $subject, $body)) {
   echo("<p>Message successfully sent!</p>");

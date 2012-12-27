@@ -19,6 +19,6 @@
 
 
 <Response>
-	<Dial record="true" action="WEBSITE GOES HERE/calls/handler.php?callsource=<?php echo($num); ?>">PHONE NUMBER HERE</Dial>
+	<Dial record="true" action="http://****/calls/handler.php?callsource=<?php echo($num); ?>">INSERT CALL NUMBER HERE</Dial>
 </Response>
 

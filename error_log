@@ -1,6 +1,0 @@
-[04-Sep-2012 08:21:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '$' found in /home/emenhart/public_html/lexero.com/calls/Galvanize.php on line 316
-[04-Sep-2012 13:12:04] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '$' found in /home/emenhart/public_html/lexero.com/calls/Galvanize.php on line 316
-[05-Sep-2012 12:43:33] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '$' found in /home/emenhart/public_html/lexero.com/calls/Galvanize.php on line 316
-[05-Sep-2012 13:16:35] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '$' found in /home/emenhart/public_html/lexero.com/calls/Galvanize.php on line 316
-[05-Sep-2012 13:21:10] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '$' found in /home/emenhart/public_html/lexero.com/calls/Galvanize.php on line 316
-[05-Sep-2012 14:25:43] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '$' found in /home/emenhart/public_html/lexero.com/calls/Galvanize.php on line 316
